@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>阻抗並聯</title>
+</head>
+
+<body>
+    <div id='header'>
+        <h1>阻抗並聯</h1>
+    </div>
+
+    <div id='io'>
+        R:<input id='R'> X:<input id='X'>
+        <button onclick='main()'>輸入</button>
+
+        <p id='ans'>Z=</p>
+
+        <button id='next' onclick='next()'>下一組</button>
+    </div>
+
+    <div id='table'>
+        <table id='inZ'>
+            <th>輸入</th>
+        </table>
+
+        <table id='outZ'>
+            <th>結果</th>
+        </table>
+    </div>
+
+    <script src='myscript.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+#next {
+    position: absolute;
+    top: 170px;
+}
+
+#inZ {
+    position: absolute;
+    top: 250px;
+}
+
+#outZ {
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
